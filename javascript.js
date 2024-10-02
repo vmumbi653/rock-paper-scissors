@@ -2,6 +2,7 @@ console.log("Hello Everybody");
 
 
 function getComputerChoice() {
-    return Math.floor((Math.random()*3)+1);
+    let choice=["rock", "paper", "scissors"];
+    return choice[Math.floor((Math.random()* choice.length))];
 }
 console.log(getComputerChoice("rock", "paper", "scissors"));
