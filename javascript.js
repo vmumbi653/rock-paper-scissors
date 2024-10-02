@@ -19,8 +19,28 @@ function getHumanChoice() {
         return "scissors";
     }
 }
-console.log(getHumanChoice("rock", "paper", "scissors"));
+//console.log(getHumanChoice("rock", "paper", "scissors"));
 
 function playRound(humanChoice, computerChoice) {
+    if (humanChoice==="rock" && computerChoice==="scissors") {
+        alert("You win!  Rock beats scissors")
+    } else if (humanChoice==="paper" && computerChoice==="rock"){
+        alert("You win! Paper beats rock")
+    } else if (humanChoice==="scissors" && computerChoice==="paper") {
+        alert("You win! Scissors beats paper")
+    } else if(computerChoice==="rock" && humanChoice==="scissors") {
+        alert("You lose! Rock beat scissors")
+    } else if(computerChoice==="paper" && humanChoice==="rock") {
+        alert("You lose! Paper beats rock")
+    } else if(computerChoice==="scissors" && humanChoice==="paper") {
+        alert("You lose! Scissors beats paper")
+    } else {
+        alert("This is a draw!")
+    }
+
 }
+    const humanSelection = getHumanChoice();
+    const computerSelection = getComputerChoice();
+
+    playRound(humanSelection, computerSelection);
 
