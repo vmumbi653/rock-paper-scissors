@@ -1,1 +1,2 @@
 # rock-paper-scissors
+This project entails the creation of a simple game of rock-paper-scissors that is meant to be played entirely in the console. The game is between a human player and a computer. The human player inputs their choice between rock, paper, or scissors for five rounds of the game. The winner is declared at the end of five rounds of the game.
