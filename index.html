@@ -3,8 +3,44 @@
     <head>
         <meta charset="UTF8">
         <Title>Project:Rock Paper Scissors</Title>
+        <link rel="stylesheet" href="mystyle.css">
     </head>
     <body>
+        <div id="game-container">
+        <div id="header-container">
+          <h1>LET'S PLAY ROCK PAPER SCISSORS!</h1> 
+          
+        </div>
+        <div id="container">
+           <button id="rockBtn">ROCK</button>
+           <button id="paperBtn">PAPER</button>
+           <button id="scissorsBtn">SCISSORS</button>
+        </div>
+        <div id="scoreBoard">
+          <h2>Players Score Board</h2> 
+          <div id="players">
+            <div id="player1">
+              <div class="human">Human Player</div>
+               <div class="score1">Score: 0</div>
+           <!-- /*<span class="finalscore1"></span> -->
+             </div>
+        <div id="player2">
+            <div class="computer">Computer Player</div>
+            <div class="score2">Score: 0</div>
+            <!-- <span class="finalscore2"></span> -->
+        </div>
+        </div>
+        <div id="game-info">
+          <div id="round">Rounds : 5</div>
+        </div>
+        <div id="display-scores">
+            <h3 id="declaration">And the Winner Is:</h3>
+            <div id="winner"></div>
+        </div>
+        <button id="restartBtn">Restart</button>
+
+       </div>
+      </div>
         <script src= "javascript.js"></script>
     </body>
 </html>
