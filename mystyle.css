@@ -19,16 +19,19 @@ body {
     font-size: 32px;
     background-color: grey;
     border-radius: 8px;
+    cursor: pointer;
 }
 #paperBtn {
     font-size: 32px;
     background-color: grey;
     border-radius: 8px;
+    cursor: pointer;
 }
 #scissorsBtn {
     font-size: 32px;
     background-color: grey;
     border-radius: 8px;
+    cursor: pointer;
 }
 #scoreBoard {
     color: white;
@@ -58,5 +61,7 @@ body {
     border-radius: 8px;
     text-align: center;
     margin-top: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
 }
 
